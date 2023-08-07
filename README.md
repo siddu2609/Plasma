@@ -17,4 +17,4 @@ Static structure factor S(k)
 Topological defect concentrations from Voronoi tessellation
 By tracking these metrics during melting, signatures of phase coexistence and spatial heterogeneity across the transition can be identified.
 
-Usage
+#Usage
