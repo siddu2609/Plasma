@@ -32,4 +32,5 @@ structure_factor_2d_basic.m: Computes static structure factor S(k)
 defect_plot.m: Identifies topological defects via Voronoi tessellation
 
 License
+
 This project is licensed under the  GNU AFFERO GENERAL PUBLIC LICENSE - see the LICENSE file for details.
