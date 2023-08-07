@@ -33,12 +33,12 @@ for v =1: length(workspaces)
     
     
     %% Compute structure factor
-    Nt = 50;
+    Nt = length(Data);%No. of frames for averaging
     AvgSF = zeros(Nk,2);
     Kmax = 0;
     kvmax=0;
     Ks=zeros(Nkx2,1);
-    for t = 1 : Nt                         %No. of frames for averaging
+    for t = 1 : Nt                         
         x=Data(t).XY(:,1)/sigma{4};%divide by sigma to non-dimensionalize
         y=Data(t).XY(:,2)/sigma{4};
         SF = zeros(Nk,2);
