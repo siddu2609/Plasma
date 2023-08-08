@@ -9,8 +9,8 @@ workspaces = {'103V','110V','120V','130V','140V'};
 Psi6_mean = zeros(1,length(workspaces)); 
 Psi6_std = zeros(1,length(workspaces));
 % Create Directories to store Data and Figures
- mainFigDir = 'E:\Summer 2023\Whole cloud';%your path here
- mainDataDir = 'C:\Users\siddu\OneDrive - IISER,Pune\Documents\MATLAB\Psicloud';%your path here
+ mainFigDir = '';%your path here
+ mainDataDir = '';%your path here
 %% Loop through each workspace
 for v = 1:length(workspaces) 
     % Load data for this workspace
