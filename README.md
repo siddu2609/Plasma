@@ -35,4 +35,4 @@ defect_plot.m: Identifies topological defects via Voronoi tessellation
 
 License
 
-This project is licensed under the  GNU AFFERO GENERAL PUBLIC LICENSE - see the LICENSE file for details.
+This project is licensed under the  MIT LICENSE - see the LICENSE file for details.
