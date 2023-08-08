@@ -2,7 +2,7 @@
 tic; % Start timer
 
 sigma={0.182764,0.193463,0.20958,0.222093,0.239105,0.253353};%Interparticle distance calculated from g(r)
-workspaces = {'103V','110V','120V','130V','140V','150V'}; 
+workspaces = {'103V','110V','120V','130V','140V','150V'}; %my files are named as 103V.mat and so on
 for v =1: length(workspaces)
     load(strcat(workspaces{v},'.mat'))
     %% construct kvec
