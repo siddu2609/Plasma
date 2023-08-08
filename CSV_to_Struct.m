@@ -1,7 +1,7 @@
 % Read the CSV file
-data = readmatrix('Results150Vfull.csv');
+data = readmatrix('Give your csv here');
 
-% Extract X, Y coordinates, and frame numbers
+% Extract X, Y coordinates, and frame numbers, use the column numbers specific to your csv
 X = data(:, 4);
 Y = data(:, 5);
 frameNumbers = data(:, 9);
